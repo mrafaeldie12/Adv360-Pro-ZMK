@@ -1,3 +1,9 @@
+macro_lock_screen: macro_lock_screen{
+compatible = "zmk,behavior-macro";
+label = "macro_lock_screen";
+#binding-cells = <0>;
+bindings = <&sk LEFT_CONTROL>, <&sk LEFT_GUI>, <&kp Q>;
+};
 macro_zoom_out: macro_zoom_out{
 compatible = "zmk,behavior-macro";
 label = "macro_zoom_out";

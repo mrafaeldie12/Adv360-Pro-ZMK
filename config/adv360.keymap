@@ -40,18 +40,18 @@
 
         default_layer {
             bindings = <
-          &none   &none   &none   &none   &none   &none                 &kp K_LOCK                                                                       &macro_mute_zoom   &none   &none      &none    &none             &none             &none
-   &sk LEFT_ALT   &kp Q   &kp W   &kp F   &kp P   &kp B             &macro_snag_it                                                                         &macro_zoom_in   &kp J   &kp L      &kp U    &kp Y  &kp SINGLE_QUOTE      &sk LEFT_ALT
- &sk LEFT_SHIFT   &kp A   &kp R   &kp S   &kp T   &kp G                      &none        &none  &lt 5 DEL                        &kp DELETE      &none   &macro_zoom_out   &kp M   &kp N      &kp E    &kp I             &kp O    &sk LEFT_SHIFT
-   &sk LEFT_GUI   &kp Z   &kp X   &kp C   &kp D   &kp V                                            &kp ESC                           &kp ESC                                &kp K   &kp H  &kp COMMA  &kp DOT          &kp FSLH  &sk LEFT_COMMAND
-          &none   &none   &none   &none   &none                    &lt 1 BACKSPACE  &lt 4 ENTER  &sk LCTRL                  &sk LEFT_CONTROL  &lt 3 TAB       &lt 2 SPACE           &none      &none    &none             &none             &none
+          &none   &none   &none   &none   &none   &none            &macro_lock_screen                                                                       &macro_mute_zoom   &none   &none      &none    &none             &none             &none
+   &sk LEFT_ALT   &kp Q   &kp W   &kp F   &kp P   &kp B                &macro_snag_it                                                                         &macro_zoom_in   &kp J   &kp L      &kp U    &kp Y  &kp SINGLE_QUOTE      &sk LEFT_ALT
+ &sk LEFT_SHIFT   &kp A   &kp R   &kp S   &kp T   &kp G                         &none        &none  &lt 5 DEL                        &kp DELETE      &none   &macro_zoom_out   &kp M   &kp N      &kp E    &kp I             &kp O    &sk LEFT_SHIFT
+   &sk LEFT_GUI   &kp Z   &kp X   &kp C   &kp D   &kp V                                               &kp ESC                           &kp ESC                                &kp K   &kp H  &kp COMMA  &kp DOT          &kp FSLH  &sk LEFT_COMMAND
+          &none   &none   &none   &none   &none                       &lt 1 BACKSPACE  &lt 4 ENTER  &sk LCTRL                  &sk LEFT_CONTROL  &lt 3 TAB       &lt 2 SPACE           &none      &none    &none             &none             &none
             >;
         };
 
         layer_Navigation {
             bindings = <
  &trans            &trans    &trans            &trans      &trans  &trans            &trans                                                             &trans        &trans          &trans          &trans       &trans           &trans  &trans
- &trans            &trans    &trans            &trans      &trans  &trans            &trans                                                             &trans    &kp K_UNDO     &kp K_PASTE      &kp K_COPY    &kp K_CUT       &kp K_REDO  &trans
+ &trans            &trans    &trans            &trans      &trans  &trans            &trans                                                             &trans         &none           &none           &none        &none            &none  &trans
  &trans  &sk LEFT_CONTROL  &sk LALT  &sk LEFT_COMMAND  &sk LSHIFT  &trans            &trans  &trans  &trans                     &trans   &trans         &trans  &kp CAPSLOCK  &kp LEFT_ARROW  &kp DOWN_ARROW       &kp UP  &kp RIGHT_ARROW  &trans
  &trans            &trans    &trans            &trans      &trans  &trans                            &trans                    &kp DEL                               &kp INS        &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP           &trans  &trans
  &trans            &trans    &trans            &trans      &trans                    &trans  &trans  &trans                  &kp ENTER  &kp TAB  &kp BACKSPACE                        &trans          &trans       &trans           &trans  &trans
