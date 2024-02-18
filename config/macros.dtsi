@@ -32,7 +32,7 @@ macro_lock_screen: macro_lock_screen{
 compatible = "zmk,behavior-macro";
 label = "macro_lock_screen";
 #binding-cells = <0>;
-bindings = <&kp LCTRL &kp LGUI &kp Q>;
+bindings = <&kp LC(LG(Q))>;
 };
 macro_zoom_out: macro_zoom_out{
 compatible = "zmk,behavior-macro";
@@ -50,13 +50,13 @@ macro_snag_it: macro_snag_it{
 compatible = "zmk,behavior-macro";
 label = "macro_snag_it";
 #binding-cells = <0>;
-bindings = <&kp LCTRL &kp LSHIFT &kp C>;
+bindings = <&kp LC(LS(C))>;
 };
 macro_mute_zoom: macro_mute_zoom{
 compatible = "zmk,behavior-macro";
 label = "macro_mute_zoom";
 #binding-cells = <0>;
-bindings = <&kp LGUI &kp LSHIFT &kp A>;
+bindings = <&kp LG(LS(A))>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
