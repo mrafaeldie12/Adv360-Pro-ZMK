@@ -32,31 +32,31 @@ macro_lock_screen: macro_lock_screen{
 compatible = "zmk,behavior-macro";
 label = "macro_lock_screen";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp LGUI>, <&kp Q>;
+bindings = <&macro_hold &kp LCTRL>, <&macro_hold &kp LGUI>, <&macro_tap &kp Q>; <&macro_release &kp LCTRL>, <&macro_release &kp LGUI>;
 };
 macro_zoom_out: macro_zoom_out{
 compatible = "zmk,behavior-macro";
 label = "macro_zoom_out";
 #binding-cells = <0>;
-bindings = <&kp LGUI>, <&kp MINUS>;
+bindings = <&kp LGUI(MINUS)>;
 };
 macro_zoom_in: macro_zoom_in{
 compatible = "zmk,behavior-macro";
 label = "macro_zoom_in";
 #binding-cells = <0>;
-bindings = <&kp LGUI>, <&kp PLUS>;
+bindings = <&kp LGUI(EQUAL)>;
 };
 macro_snag_it: macro_snag_it{
 compatible = "zmk,behavior-macro";
 label = "macro_snag_it";
 #binding-cells = <0>;
-bindings = <&kp LEFT_CONTROL>, <&sk LSHIFT>, <&kp C>;
+bindings = <&macro_hold &kp LCTRL>, <&macro_hold &kp LSHIFT>, <&macro_tap &kp C>; <&macro_release &kp LCTRL>, <&macro_release &kp LSHIFT>;
 };
 macro_mute_zoom: macro_mute_zoom{
 compatible = "zmk,behavior-macro";
 label = "macro_mute_zoom";
 #binding-cells = <0>;
-bindings = <&kp LGUI>, <&kp LSHIFT>, <&kp A>;
+bindings = <&macro_hold &kp LGUI>, <&macro_hold &kp LSHIFT>, <&macro_tap &kp A>; <&macro_release &kp LGUI>, <&macro_release &kp LSHIFT>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
