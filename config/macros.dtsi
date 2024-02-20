@@ -26,7 +26,7 @@ macro_undo: macro_undo{
 compatible = "zmk,behavior-macro";
 label = "macro_undo";
 #binding-cells = <0>;
-bindings = <&kp LG(U)>;
+bindings = <&kp LG(Z)>;
 };
 macro_lock_screen: macro_lock_screen{
 compatible = "zmk,behavior-macro";
