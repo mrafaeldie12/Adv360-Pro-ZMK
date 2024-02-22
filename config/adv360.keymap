@@ -50,11 +50,11 @@
 
         layer_Navigation {
             bindings = <
- &trans            &trans    &trans            &trans      &trans  &trans            &trans                                                             &trans        &trans          &trans          &trans        &trans           &trans  &trans
- &trans            &trans    &trans            &trans      &trans  &trans            &trans                                                             &trans   &macro_undo    &macro_paste     &macro_copy  &macro_paste      &macro_redo  &trans
- &trans  &sk LEFT_CONTROL  &sk LALT  &sk LEFT_COMMAND  &sk LSHIFT  &trans            &trans  &trans  &trans                     &trans   &trans         &trans  &kp CAPSLOCK  &kp LEFT_ARROW  &kp DOWN_ARROW        &kp UP  &kp RIGHT_ARROW  &trans
- &trans            &trans    &trans            &trans      &trans  &trans                            &trans                    &kp DEL                               &kp INS        &kp HOME   &kp PAGE_DOWN   &kp PAGE_UP           &trans  &trans
- &trans            &trans    &trans            &trans      &trans                    &trans  &trans  &trans                  &kp ENTER  &kp TAB  &kp BACKSPACE                        &trans          &trans        &trans           &trans  &trans
+ &trans            &trans    &trans            &trans      &trans  &trans            &trans                                                             &trans      &trans          &trans          &trans       &trans           &trans  &trans
+ &trans            &trans    &trans            &trans      &trans  &trans            &trans                                                             &trans   &kp LG(U)    &macro_paste     &macro_copy   &macro_cut      &macro_redo  &trans
+ &trans  &sk LEFT_CONTROL  &sk LALT  &sk LEFT_COMMAND  &sk LSHIFT  &trans            &trans  &trans  &trans                     &trans   &trans         &trans  &caps_word  &kp LEFT_ARROW  &kp DOWN_ARROW       &kp UP  &kp RIGHT_ARROW  &trans
+ &trans            &trans    &trans            &trans      &trans  &trans                            &trans                    &kp DEL                             &kp INS        &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP           &trans  &trans
+ &trans            &trans    &trans            &trans      &trans                    &trans  &trans  &trans                  &kp ENTER  &kp TAB  &kp BACKSPACE                      &trans          &trans       &trans           &trans  &trans
             >;
         };
 
@@ -70,11 +70,11 @@
 
         layer_Symbols {
             bindings = <
- &trans            &trans         &trans        &trans      &trans             &trans                          &trans                                                                         &trans  &trans          &trans            &trans    &trans            &trans  &trans
- &trans  &kp LEFT_BRACKET      &kp COLON     &kp TILDE    &kp PLUS  &kp RIGHT_BRACKET                          &trans                                                                         &trans  &trans          &trans            &trans    &trans            &trans  &trans
- &trans   &kp EXCLAMATION         &kp AT      &kp HASH  &kp DOLLAR        &kp PERCENT                          &trans                 &trans          &trans                  &trans  &trans  &trans  &trans  &sk LEFT_SHIFT  &sk LEFT_COMMAND  &sk LALT  &sk LEFT_CONTROL  &trans
- &trans         &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp MINUS           &kp PIPE                                                                 &trans                  &trans                  &trans          &trans            &trans    &trans            &trans  &trans
- &trans            &trans         &trans        &trans      &trans                               &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE                  &trans  &trans  &trans                  &trans            &trans    &trans            &trans  &trans
+ &trans           &trans         &trans        &trans      &trans           &trans                          &trans                                                                         &trans  &trans          &trans            &trans    &trans            &trans  &trans
+ &trans   &kp LEFT_BRACE      &kp COLON     &kp TILDE    &kp PLUS  &kp RIGHT_BRACE                          &trans                                                                         &trans  &trans          &trans            &trans    &trans            &trans  &trans
+ &trans  &kp EXCLAMATION         &kp AT      &kp HASH  &kp DOLLAR      &kp PERCENT                          &trans                 &trans          &trans                  &trans  &trans  &trans  &trans  &sk LEFT_SHIFT  &sk LEFT_COMMAND  &sk LALT  &sk LEFT_CONTROL  &trans
+ &trans        &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp MINUS         &kp PIPE                                                                 &trans                  &trans                  &trans          &trans            &trans    &trans            &trans  &trans
+ &trans           &trans         &trans        &trans      &trans                             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE                  &trans  &trans  &trans                  &trans            &trans    &trans            &trans  &trans
             >;
         };
 
